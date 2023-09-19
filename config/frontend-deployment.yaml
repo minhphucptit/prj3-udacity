@@ -16,7 +16,7 @@ spec:
         api: external        
     spec:
       containers:
-      - image: constantine8/udagram-frontend:v1
+      - image: constantine8/udagram-frontend:v2
         name: frontend
         imagePullPolicy: Always          
         ports:
